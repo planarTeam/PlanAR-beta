@@ -5,6 +5,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
     >
     <TextView
         android:id="@+id/textD"
@@ -13,7 +14,13 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"/>
+
+
+
+
     <ListView
+
+        android:outlineProvider="background"
         android:id="@+id/list"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
